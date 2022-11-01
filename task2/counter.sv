@@ -5,8 +5,6 @@ module counter #(
     input  logic             clk,   // clock
     input  logic             rst,   // reset
     input  logic             en,    // counter enable
-    //input  logic [WIDTH-1:0] incr,
-    input  logic [WIDTH-1:0] ofst,
     output logic [WIDTH-1:0] count
 );
 
