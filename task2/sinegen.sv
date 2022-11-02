@@ -16,8 +16,6 @@ module sinegen #(
       .rst(rst),
       .en(en),
       .clk(clk),
-      .ofst(ofst),
-      //.incr(incr),
       .count(address1)
   );
   dual_rom sinRom (
