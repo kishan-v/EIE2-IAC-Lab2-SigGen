@@ -5,7 +5,7 @@ module sinegen #(
     input logic clk,
     input logic rst,
     input logic  en,
-    input    logic   [D_WIDTH-1:0] ofst, // offset value
+    input    logic   [D_WIdTH-1:0] ofst, // offset value
     output    logic   [D_WIDTH-1:0] dout1,
     output    logic   [D_WIDTH-1:0] dout2
 );
